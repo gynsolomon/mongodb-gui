@@ -1,20 +1,7 @@
 ## mongodb-gui ![npm](https://badge.fury.io/js/mongodb-gui.png)
 
 
-
-### Installation
-````
-$ [sudo] npm install mongodb-gui
-````
-
-
-### Example
-````javascript
-var mongodb-gui = require('mongodb-gui');
-````
-
-### API
-check this file: `index.js`
+The next GUI Client for MongoDB 
 
 ### Contributing
 - Fork this repo
