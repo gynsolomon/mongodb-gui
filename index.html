@@ -2,9 +2,40 @@
 <html>
 <head>
 <title>Mongodb Client</title>
+<style type="text/css" media="screen">
+.sidebar{
+	background: #ccc;
+	position: absolute;
+	width: 20%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+}
+
+.viewer{
+width: 80%;
+margin-left: 23%;
+}
+table{
+width: 100%;
+}
+</style>
+<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery.js" ></script>
 <script charset="utf-8" src="app.js" ></script>
 </head>
   <body>
-    <h1>MongoDB Client</h1>
+		<div id="sidebar" class="sidebar" >
+			
+		</div>
+		<div id="viewer" class="viewer" >
+			<table border="0">
+				<tr>
+					<th>Key</th>
+					<th>Value</th>
+					<th>Type</th>
+				</tr>
+			</table>			
+		</div>
   </body>
 </html>
